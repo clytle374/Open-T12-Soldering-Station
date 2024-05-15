@@ -1,4 +1,3 @@
 # Open-T12-Soldering-Station-
-This is a clone of the cheap T12 soldering stations, attempting to eliminate the shortfalls of the cheap designs. 
-
-![Alt text](https://github.com/clytle374/Open-T12-Soldering-Station/blob/b0e18554f023ce00e1f57d5ed63cb1886c6b9b53/pictures/solderingStationPCB.pdf?raw=true "Parameters and useage")
+This is a clone of the cheap T12 soldering stations, attempting to eliminate the shortfalls of the cheap
+[embed]https://github.com/clytle374/Open-T12-Soldering-Station/blob/b0e18554f023ce00e1f57d5ed63cb1886c6b9b53/pictures/solderingStationPCB.pdf[/embed]
