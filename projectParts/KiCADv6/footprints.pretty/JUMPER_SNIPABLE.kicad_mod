@@ -1,0 +1,100 @@
+(footprint "JUMPER_SNIPABLE"
+	(version 20240225)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(tags "B2B-ZRLFSN ")
+	(property "Reference" "REF**"
+		(at 0.75 -0.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36606439-aa0d-46eb-8d91-34cdfa9c506e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "jumper"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "358ed2c3-2637-4d53-9b1e-abd074c7ac6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "JUMPER_SNIPABLE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d7e5128-7355-48a2-b87a-1c29f001ef12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6917230-67c2-4101-a4d2-99d4ca90e114")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b2e53eb-9c05-48f9-8617-8fa38f9de2c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2033e3e8-e4d2-41da-954a-1c6d6881c221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -0.000001 0)
+		(size 1.524 1.778)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47ee9479-d164-43e4-8da0-c3fc1e5f4dc7")
+	)
+	(pad "2" thru_hole oval
+		(at 2.032 0)
+		(size 1.524 1.778)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb24a50b-1cdd-404a-9b2e-2efe3ee5bd95")
+	)
+)

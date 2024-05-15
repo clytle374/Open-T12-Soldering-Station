@@ -1,0 +1,87 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.99.0-unknown"
+    },
+    "CreationDate": "2024-05-06T05:37:55-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "solderingStationPCB",
+      "GUID": "736f6c64-6572-4696-9e67-53746174696f",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 74.218,
+      "Y": 29.26
+    },
+    "LayerNumber": 2,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1905,
+      "PadToTrack": 0.1905,
+      "TrackToTrack": 0.1905,
+      "MinLineWidth": 0.254,
+      "TrackToRegion": 0.3048,
+      "RegionToRegion": 0.3048
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "solderingStationPCB-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.51,
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
