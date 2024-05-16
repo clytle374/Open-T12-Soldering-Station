@@ -9,7 +9,7 @@ Some of the cheap boards had issue with the linear voltage regulator dropping ou
 
 Much more information on the many models out there at the above mentioned site for the firmware. I created this as it is impossiable to tell exactly what you are buying from the suppliers.
 
-![Alt text](https://github.com/clytle374/Open-T12-Soldering-Station/blob/12441aa4fc956869854109382b6ab82d9056ea64/pictures/Screenshot_20240516_033217.png?raw=true "Render")
+![Alt text](https://github.com/clytle374/Open-T12-Soldering-Station/blob/7228fbf64efad6a5f93cb2e9aeef670ecb9dc2f6/pictures/Screenshot_20240516_033217.png?raw=true "Render")
 
 
 ![Alt text](https://github.com/clytle374/Open-T12-Soldering-Station/blob/12441aa4fc956869854109382b6ab82d9056ea64/pictures/Screenshot_20240516_033252.png?raw=true "PCB Layout")
