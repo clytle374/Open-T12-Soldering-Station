@@ -65,17 +65,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center -3.4029 0)
-		(end -3.0219 0)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "3f93fdd0-dc1f-40a3-a4a4-1330255518fb")
-	)
 	(fp_line
 		(start -1.6249 -2.327)
 		(end -1.6249 1.4322)
@@ -115,17 +104,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "7501f752-a527-40f4-9f84-8b992f0ed76a")
-	)
-	(fp_circle
-		(center -3.4029 0)
-		(end -3.0219 0)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "f0145e91-5baf-43f3-9ce8-60d7ab11ad63")
 	)
 	(fp_line
 		(start -1.7519 -2.454)
@@ -206,17 +184,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "cd7bf51d-2f34-4fea-8a83-187a8cc2e8e0")
-	)
-	(fp_circle
-		(center 0 -1.905)
-		(end 0.381 -1.905)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "557acfc0-e1a0-4e79-a685-316ebb648756")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.75 0 0)
