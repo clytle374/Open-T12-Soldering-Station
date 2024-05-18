@@ -1072,7 +1072,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
+						(xy 10.16 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.127)
@@ -1096,7 +1096,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
+						(xy 10.16 0) (xy 8.89 -0.8467)
 					)
 					(stroke
 						(width 0.127)
@@ -1120,7 +1120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -1132,7 +1132,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -1230,7 +1230,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 5.08 0)
+						(xy 7.62 0) (xy 8.89 -0.8467)
 					)
 					(stroke
 						(width 0.127)
@@ -1254,7 +1254,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
+						(xy 7.62 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.127)
@@ -1467,18 +1467,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 10.16 0) (xy 8.89 0.8467)
 					)
 					(stroke
@@ -1503,7 +1491,19 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
 					)
 					(stroke
 						(width 0.127)
@@ -1527,7 +1527,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -1625,6 +1625,18 @@
 				)
 				(polyline
 					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.62 0) (xy 5.08 0)
 					)
 					(stroke
@@ -1649,30 +1661,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
@@ -1686,6 +1674,18 @@
 				(polyline
 					(pts
 						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
 						(width 0.127)
@@ -3178,9 +3178,9 @@
 					)
 				)
 				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -3202,21 +3202,9 @@
 					)
 				)
 				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -3229,6 +3217,18 @@
 					(start -2.794 1.905)
 					(mid -2.9736 1.9794)
 					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
 					(stroke
 						(width 0)
 						(type default)
@@ -5372,18 +5372,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.762 0) (xy 0.762 0.762)
 					)
 					(stroke
@@ -5396,10 +5384,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
+						(xy 0.762 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -5408,7 +5396,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
+						(xy 0.762 -0.762) (xy 0.762 0)
 					)
 					(stroke
 						(width 0.254)
@@ -5432,10 +5420,34 @@
 				)
 				(polyline
 					(pts
+						(xy 0.762 -2.54) (xy 0.762 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 -3.175) (xy 0.762 -2.54)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -5467,14 +5479,14 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
+						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -5487,18 +5499,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(circle
@@ -5526,6 +5526,18 @@
 				)
 				(polyline
 					(pts
+						(xy 3.81 0.508) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254) (xy 3.81 0.508)
 					)
 					(stroke
@@ -5539,18 +5551,6 @@
 				(polyline
 					(pts
 						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -6399,12 +6399,6 @@
 		(uuid "0bb4d77b-3a83-46f4-b722-a266ba35beed")
 	)
 	(junction
-		(at 153.67 36.322)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1176fb12-9f0b-4c68-953f-c6d21ad0be71")
-	)
-	(junction
 		(at 172.212 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6529,6 +6523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ee73321-c8f1-4d92-8724-9a20e9e8af81")
+	)
+	(junction
+		(at 212.09 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f73d0c1-631a-41ef-bb78-d6df9ea9cb3c")
 	)
 	(junction
 		(at 159.512 48.26)
@@ -6681,6 +6681,12 @@
 		(uuid "cefb8ad5-7b8b-4921-9bfa-9c80880d6d2f")
 	)
 	(junction
+		(at 191.262 56.642)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d08c4488-c080-42e6-9606-ab0321c18aa8")
+	)
+	(junction
 		(at 40.132 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6717,12 +6723,6 @@
 		(uuid "e0c98caa-f653-4993-ba28-48806c57a116")
 	)
 	(junction
-		(at 160.02 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2079efe-7888-4474-9f26-152a00bc1d53")
-	)
-	(junction
 		(at 64.262 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6745,6 +6745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eccdd230-21c5-442d-bfb4-96a2189802ef")
+	)
+	(junction
+		(at 185.928 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efab8997-fa86-4d43-8139-70528502155f")
 	)
 	(junction
 		(at 273.304 57.404)
@@ -7122,6 +7128,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 52.07) (xy 212.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226eb50b-0b32-4d85-b889-70dd9b4d37de")
+	)
+	(wire
+		(pts
 			(xy 177.292 77.47) (xy 178.562 77.47)
 		)
 		(stroke
@@ -7172,7 +7188,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 26.67) (xy 160.02 26.67)
+			(xy 153.67 26.67) (xy 163.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7472,16 +7488,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 26.67) (xy 160.02 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "493f8369-a225-46d0-b6c8-1598df44ecba")
-	)
-	(wire
-		(pts
 			(xy 167.132 48.26) (xy 172.212 48.26)
 		)
 		(stroke
@@ -7512,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 48.26) (xy 191.262 48.26)
+			(xy 184.912 48.26) (xy 185.928 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7582,7 +7588,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.122 52.07) (xy 215.646 52.07)
+			(xy 210.82 52.07) (xy 212.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7609,16 +7615,6 @@
 			(type default)
 		)
 		(uuid "5371f85f-c26d-4e1b-a2ee-55c3113d5b2b")
-	)
-	(wire
-		(pts
-			(xy 160.02 26.67) (xy 163.83 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5386a132-a728-40e2-a67f-a15fbf065572")
 	)
 	(wire
 		(pts
@@ -7902,6 +7898,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 52.07) (xy 215.646 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a307061-7ec8-40aa-8728-326e186f4833")
+	)
+	(wire
+		(pts
 			(xy 127.508 160.02) (xy 127.508 149.098)
 		)
 		(stroke
@@ -8059,16 +8065,6 @@
 			(type default)
 		)
 		(uuid "79b06a6a-fc06-4113-86b0-0840a86b8a1d")
-	)
-	(wire
-		(pts
-			(xy 160.02 35.56) (xy 160.02 36.322)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ff745c-efd5-48c6-a262-99bf1e3fb83a")
 	)
 	(wire
 		(pts
@@ -8429,6 +8425,16 @@
 			(type default)
 		)
 		(uuid "9c4bddd9-4645-4696-9285-0ee54788aa81")
+	)
+	(wire
+		(pts
+			(xy 185.928 56.642) (xy 191.262 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f19679a-1b62-42ae-b2d8-3f5e9f931577")
 	)
 	(wire
 		(pts
@@ -9112,6 +9118,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.928 48.26) (xy 191.262 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d563b4d6-9105-4390-910f-69a60c42eaab")
+	)
+	(wire
+		(pts
 			(xy 259.08 77.47) (xy 262.382 77.47)
 		)
 		(stroke
@@ -9272,6 +9288,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.928 48.26) (xy 185.928 49.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cca608-bd74-4186-9fdf-f50b0f4e8ab8")
+	)
+	(wire
+		(pts
 			(xy 178.562 64.77) (xy 177.292 64.77)
 		)
 		(stroke
@@ -9422,16 +9448,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.322) (xy 153.67 36.322)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f121314a-a332-4fae-88ac-4168ff320382")
-	)
-	(wire
-		(pts
 			(xy 266.446 59.436) (xy 273.304 59.436)
 		)
 		(stroke
@@ -9449,6 +9465,16 @@
 			(type default)
 		)
 		(uuid "f22d2282-c9e7-40db-8954-b945ef5c2f3b")
+	)
+	(wire
+		(pts
+			(xy 212.09 60.96) (xy 212.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2449bb8-4808-43c5-bb5c-c16cf45cdffe")
 	)
 	(wire
 		(pts
@@ -10092,7 +10118,7 @@
 	)
 	(global_label "ENC_PB"
 		(shape input)
-		(at 214.122 52.07 180)
+		(at 210.82 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10102,7 +10128,7 @@
 		)
 		(uuid "7e5f40e8-54ed-458d-b3a3-955b4c76a449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8797 52.07 0)
+			(at 200.5777 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,6 +10729,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a1a844-93f7-4858-b708-a0885f65dda4")
+		(property "Reference" "#PWR022"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c41b6d21-4f7c-4fd0-88a0-b5a65b18318c")
+		)
+		(instances
+			(project "solderingStationPCB"
+				(path "/7ae3a8e5-78b8-4c1b-a2d9-2ed69212061a"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 54.356 83.312 90)
 		(unit 1)
@@ -10980,7 +11072,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 31.75 0)
+		(at 185.928 52.832 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10988,7 +11080,7 @@
 		(dnp no)
 		(uuid "27464147-6eb4-4215-9530-8a53abaa482a")
 		(property "Reference" "C14"
-			(at 162.306 31.7499 0)
+			(at 188.214 52.8319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11089,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 160.528 34.2899 0)
+			(at 186.436 55.3719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 160.9852 35.56 0)
+			(at 186.8932 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 31.75 0)
+			(at 185.928 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11116,7 @@
 			)
 		)
 		(property "Description" "TCCT6R3X106K1GV001E"
-			(at 160.02 31.75 0)
+			(at 185.928 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,6 +13621,75 @@
 			(project "solderingStationPCB"
 				(path "/7ae3a8e5-78b8-4c1b-a2d9-2ed69212061a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93c7b2c8-c000-4f3d-bd81-8e9b291a9961")
+		(property "Reference" "C7"
+			(at 207.264 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 206.502 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 211.1248 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CL21B103KBANNNC"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70ada618-c1a5-456a-abab-ddccdf24c563")
+		)
+		(pin "1"
+			(uuid "68081e40-88b7-4cc3-a29d-72c80a87d02b")
+		)
+		(instances
+			(project "solderingStationPCB"
+				(path "/7ae3a8e5-78b8-4c1b-a2d9-2ed69212061a"
+					(reference "C7")
 					(unit 1)
 				)
 			)
