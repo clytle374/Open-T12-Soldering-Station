@@ -9140,6 +9140,18 @@
 		(uuid "7bb11ffd-e48c-4433-86ad-91d417cecd1e")
 		(at 113.745 96.69 -90)
 		(tags "B2B-ZRLFSN ")
+		(property "Reference" "JP2"
+			(at 1.125 -1.65 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c4eccf68-6dde-4adc-af80-325a2fb5f68e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Value" "Jumper_2_Bridged"
 			(at 0.75 0 -90)
 			(unlocked yes)
@@ -9188,18 +9200,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reference" "JP2"
-			(at 1.125 -1.65 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "c4eccf68-6dde-4adc-af80-325a2fb5f68e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
