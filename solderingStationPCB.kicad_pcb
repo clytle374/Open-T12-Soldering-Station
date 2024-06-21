@@ -1,5 +1,5 @@
 (kicad_pcb
-	(version 20240225)
+	(version 20240617)
 	(generator "pcbnew")
 	(generator_version "8.99")
 	(general
@@ -41,6 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(aux_axis_origin 54.47 78.19)
 		(grid_origin 54.47 78.19)
 		(pcbplotparams
@@ -55,7 +56,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin yes)
 			(hpglpennumber 1)
@@ -74,6 +74,7 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -3817,7 +3818,7 @@
 				)
 			)
 		)
-		(property "Value" "S9013"
+		(property "Value" "BC817-40"
 			(at 0 2.5 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3855,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Description" "TRANS NPN 25V 0.6A TO-18"
+		(property "Description" "45V 300mW 100@100mA,1.0V 500mA NPN SOT-23 Bipolar Transistors - BJT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3868,7 +3869,7 @@
 				)
 			)
 		)
-		(property "MPN" "S9013"
+		(property "MPN" "BC817-40"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3933,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Central Semiconductor Corp"
+		(property "Manufacturer" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
