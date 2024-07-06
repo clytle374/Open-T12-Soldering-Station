@@ -17,4 +17,6 @@ Much more information on the many models out there at the above mentioned site f
 
 ![Alt text](pictures/schematic.png?raw=true "Schematic")
 
+![Alt text](pictures/BoardConnections.png?raw=true "BoardConnections, Configuration")
+
 A limited run will be available soon on Tindie.
