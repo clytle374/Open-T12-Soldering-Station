@@ -19,4 +19,8 @@ Much more information on the many models out there at the above mentioned site f
 
 ![Alt text](pictures/BoardConnections.png?raw=true "BoardConnections, Configuration")
 
-A limited run will is available on Tindie.
+A limited run is available on Tindie.
+
+https://www.tindie.com/products/clytle374/open-t12-soldering-station/
+
+https://www.tindie.com/products/clytle374/open-t12-soldering-station-board-only-globalship/

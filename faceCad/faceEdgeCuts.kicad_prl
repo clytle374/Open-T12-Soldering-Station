@@ -10,6 +10,7 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.6
@@ -62,7 +63,8 @@
       35,
       36,
       39,
-      40
+      40,
+      41
     ],
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
@@ -75,7 +77,7 @@
   },
   "meta": {
     "filename": "faceEdgeCuts.kicad_prl",
-    "version": 3
+    "version": 4
   },
   "net_inspector_panel": {
     "col_hidden": [
