@@ -23,4 +23,4 @@ A limited run is available on Tindie.
 
 https://www.tindie.com/products/clytle374/open-t12-soldering-station/
 
-https://www.tindie.com/products/clytle374/open-t12-soldering-station-board-only-globalship/
+https://www.tindie.com/products/clytle374/open-t12-soldering-station-board-rohs-kit/
